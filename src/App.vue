@@ -51,6 +51,10 @@ header input {
   border-radius: 5px;
 }
 
+header input:focus {
+  outline: none;
+}
+
 .options-container {
   display: flex;
   flex-wrap: wrap;
